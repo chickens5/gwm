@@ -8,37 +8,6 @@ sustained decline (Arctic September sea ice, the Greenland and Antarctic ice she
 Static site — no backend, no ML. Python fetches and pre-processes nine public data
 series into small JSON files; a Vite + React + Recharts frontend renders them.
 
-## Quick start
-
-```bash
-# 1. See the app immediately with synthetic placeholder data
-python3 scripts/make_sample_data.py
-cd web && npm install && npm run dev
-
-# 2. Replace with real observations (run from repo root, needs internet)
-python3 scripts/fetch_data.py       # downloads raw files -> data/raw/
-python3 scripts/process_data.py     # raw -> web/public/data/*.json
-```
-
-The app shows an amber SAMPLE DATA banner until a real `process_data.py` run
-replaces the placeholder JSON. No pip installs are needed — both scripts are stdlib-only.
-
-## The fetcher's contract
-
-`fetch_data.py` treats every endpoint independently:
-
-- multiple candidate URLs per source (fallbacks for URL rot and version bumps)
-- retry with backoff on transient network errors; no retry on 403/404 or bad payloads
-- every download is **validated** (size, expected content marker, minimum line count)
-  before being accepted — an HTML error page saved as `data.csv` counts as a failure
-- ends with a summary table, a machine-readable `data/raw/fetch_report.json`,
-  a landing-page URL to check for each failed source, and a copy-paste command to
-  re-run only the failures (`python3 scripts/fetch_data.py gistemp seaice`)
-- exit code 1 if any required source failed (useful in CI)
-
-`process_data.py` has the same isolation: a malformed file fails only its own chart.
-The frontend reads `meta.json` and renders an "unavailable" note in place of any
-chart whose source failed — the rest of the page is unaffected.
 
 ## Data sources
 
@@ -59,27 +28,3 @@ chart whose source failed — the rest of the page is unaffected.
 not re-baseline published anomalies. The 1.5 °C / 2.0 °C horizons on the temperature
 chart are drawn relative to GISTEMP's own 1880–1900 mean as a stated approximation
 of the pre-industrial (1850–1900) reference.
-
-Optional: `EIA_API_KEY=<key> python3 scripts/fetch_data.py` adds monthly US
-generation (free key at eia.gov/opendata). Without it the annual OWID series is used.
-
-## Deploy
-
-```bash
-cd web && npm run build        # output in web/dist/
-```
-
-Vercel: set root directory to `web/`, framework Vite. Netlify: base `web`,
-publish `web/dist`. A monthly GitHub Action that refreshes the data and commits
-is in `.github/workflows/update-data.yml` (git-integration deploys pick up the commit).
-
-## Layout
-
-```
-scripts/fetch_data.py        download + validate raw sources (stdlib only)
-scripts/process_data.py      raw -> web/public/data/*.json + meta.json
-scripts/make_sample_data.py  synthetic fixtures; end-to-end parser test
-data/raw/                    downloaded raw files + fetch_report.json (gitignored)
-web/                         Vite + React + Tailwind v4 + Recharts frontend
-web/public/data/             the JSON the app reads (committed so deploys are static)
-```
