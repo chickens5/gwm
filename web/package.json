@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "homepage": "https://github.io/chickens5.gwm",
+    "homepage": "https://chickens5.github.io/gwm/",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
