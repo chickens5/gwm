@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  /*Background colors*/
+  --color-ink: #273338;
+  --color-panel: #0b1420;
+  --color-panel-2: #142134;
+  --color-hairline: #9CB080;
+  --color-body: #e9eff7;
+  --color-muted: #8ca0ba;
+  --color-faint: #5b6d86;
+
+  /* Meaning-coded accents */
+  --color-ember: #ff6b4a;   /* heat, forcing, thresholds */
+  --color-amber: #f5a83c;   /* carbon */
+  --color-ice: #7fd8ea;     /* cryosphere */
+  --color-steel: #5e8fef;   /* ocean, sea level */
+
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-body);
+  
+  --color-panel: #04301b8f;
+  font-family: var(--font-display);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* mono eyebrow labels */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-faint);
+}
+
+.recharts-cartesian-axis-tick text {
+  font-family: var(--font-mono);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ice);
+  outline-offset: 2px;
+}
