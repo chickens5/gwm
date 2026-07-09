@@ -1,0 +1,42 @@
+{
+  "mode": "real",
+  "generated_at": "2026-07-08T02:39:58.873447+00:00",
+  "sources": {
+    "co2": {
+      "ok": false,
+      "note": "co2_mm_mlo.csv not found in data/raw \u2014 run fetch_data.py first"
+    },
+    "emissions": {
+      "ok": false,
+      "note": "owid_co2_emissions.csv not found in data/raw \u2014 run fetch_data.py first"
+    },
+    "electricity": {
+      "ok": false,
+      "note": "owid_electricity_demand.csv not found in data/raw \u2014 run fetch_data.py first"
+    },
+    "gistemp": {
+      "ok": false,
+      "note": "gistemp_glb.csv not found in data/raw \u2014 run fetch_data.py first"
+    },
+    "sst": {
+      "ok": false,
+      "note": "ncei_ocean_anomaly.csv not found in data/raw \u2014 run fetch_data.py first"
+    },
+    "ohc": {
+      "ok": false,
+      "note": "ncei_ohc_0-700m.dat not found in data/raw \u2014 run fetch_data.py first"
+    },
+    "sealevel": {
+      "ok": false,
+      "note": "sealevel_gmsl.csv not found in data/raw \u2014 run fetch_data.py first"
+    },
+    "seaice": {
+      "ok": false,
+      "note": "nsidc_n09_extent.csv not found in data/raw \u2014 run fetch_data.py first"
+    },
+    "icesheets": {
+      "ok": false,
+      "note": "owid_ice_sheets.csv not found in data/raw \u2014 run fetch_data.py first"
+    }
+  }
+}
