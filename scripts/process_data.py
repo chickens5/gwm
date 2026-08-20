@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
 """
-process_data.py — Parse all raw data files and write JSON to public/data/processed/
+process_data.py — Parses all raw data files and write JSON to public/json_files
 Run from the docs/ directory:  python scripts/process_data.py
 """
 
@@ -11,10 +10,11 @@ from collections import defaultdict
 
 import openpyxl
 
-ROOT = pathlib.Path(__file__).parent.parent   # docs/
-DATA = ROOT / "public" / "data"
-OUT  = DATA / "processed"
-OUT.mkdir(exist_ok=True)
+#Sets up working dirs
+ROOT = pathlib.Path(__file__).parent.parent          
+DATA = ROOT / "data"             
+OUT  = ROOT / "docs/public/json_files"                           
+OUT.mkdir(parents=True, exist_ok=True)
 
 
 # ── CO₂ (NOAA Mauna Loa) ─────────────────────────────────────────────────────

@@ -5,6 +5,7 @@ import {
 } from "recharts";
 //https://recharts.github.io/
 //https://recharts.github.io/en-US/storybook/
+
 const TICK = { fill: "#8ca0ba", fontSize: 11 };
 
 function fmtTick(d) {
@@ -46,6 +47,7 @@ function ChartTooltip({ active, payload, label, unit }) {
  * lines: [{ key, name, color, width?, dash? }]
  * refLines: [{ y, label, color? }]  — the threshold horizons
  */
+
 export default function TimeSeriesChart({
   title, caption, data, lines, unit,
   refLines = [], yDomain, height = 320, legend = false,
