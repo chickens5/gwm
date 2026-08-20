@@ -15,19 +15,10 @@ const NAV = [
 ];
 
 export default function App() {
-  const { loading, meta, series, error } = useData();
+  const { loading, series } = useData();
 
   if (loading) {
     return <div className="grid min-h-screen place-items-center font-mono text-sm text-muted">loading vital signs…</div>;
-  }
-  if (error) {
-    return (
-      <div className="grid min-h-screen place-items-center p-6">
-        <div className="max-w-md rounded-lg border border-hairline bg-panel p-6 text-sm leading-relaxed text-muted">
-          <div className="eyebrow mb-2">no data</div>{error}
-        </div>
-      </div>
-    );
   }
 
   const { co2, gistemp, seaice, sealevel } = series;
@@ -38,16 +29,9 @@ export default function App() {
   const iceNow = latest(seaice);
   const iceBase = seaice ? meanBetween(seaice.points, 1981, 2010) : null;
   const slNow = latest12m(sealevel);
-  const updated = meta?.generated_at ? new Date(meta.generated_at).toLocaleDateString() : null;
 
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6">
-      {meta?.mode === "sample" && (
-        <div className="mt-4 rounded-md border border-amber/40 bg-amber/10 px-4 py-2 font-mono text-xs text-amber">
-          SAMPLE DATA — synthetic placeholder series. Run scripts/fetch_data.py then
-          scripts/process_data.py to load real observations.
-        </div>
-      )}
 
       <header className="pb-10 pt-12 sm:pt-16">
         <div className="eyebrow mb-3">planetary vital signs · 1958–present</div>
@@ -89,9 +73,9 @@ export default function App() {
       </header>
 
       <main>
-        <Drivers series={series} meta={meta} />
-        <Response series={series} meta={meta} />
-        <Thresholds series={series} meta={meta} />
+        <Drivers series={series} />
+        <Response series={series} />
+        <Thresholds series={series} />
       </main>
 
       <footer className="border-t border-hairline py-10 text-sm leading-relaxed text-faint">
@@ -102,8 +86,7 @@ export default function App() {
           IMBIE / NASA via OWID (ice sheets).
         </p>
         <p className="mt-2 font-mono text-xs">
-          {updated ? `data processed ${updated} · ` : ""}updates monthly ~
-          anomaly baselines differ by dataset and are stated per chart
+          updates monthly ~ anomaly baselines differ by dataset and are stated per chart
         </p>
       </footer>
     </div>

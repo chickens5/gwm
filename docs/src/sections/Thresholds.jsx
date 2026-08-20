@@ -12,7 +12,7 @@ function mergeSheets(gl, an) {
   return [...map.values()].sort((a, b) => a.d.localeCompare(b.d));
 }
 
-export default function Thresholds({ series, meta }) {
+export default function Thresholds({ series }) {
   const { seaice, icesheets } = series;
   const baseline = seaice ? meanBetween(seaice.points, 1981, 2010) : null;
   const sheets = icesheets ? mergeSheets(icesheets.greenland, icesheets.antarctica) : null;
@@ -30,7 +30,7 @@ export default function Thresholds({ series, meta }) {
           refLines={baseline !== null ? [{ y: +baseline.toFixed(2), label: "1981–2010 mean", color: "#7fd8ea" }] : []}
           lines={[{ key: "v", name: "September extent", color: "#7fd8ea", width: 2.25 }]}
         />
-      ) : <MissingSource id="seaice" name="Arctic sea ice" meta={meta} />}
+      ) : <MissingSource id="seaice" name="Arctic sea ice" />}
 
       {sheets ? (
         <TimeSeriesChart
@@ -42,7 +42,7 @@ export default function Thresholds({ series, meta }) {
             { key: "an", name: "Antarctica", color: "#5e8fef", width: 2.25 },
           ]}
         />
-      ) : <MissingSource id="icesheets" name="Ice sheets" meta={meta} />}
+      ) : <MissingSource id="icesheets" name="Ice sheets" />}
     </Section>
   );
 }

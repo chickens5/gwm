@@ -6,9 +6,9 @@
   --color-panel: #0b1420;
   --color-panel-2: #142134;
   --color-hairline: #9CB080;
-  --color-body: #e9eff7;
-  --color-muted: #8ca0ba;
-  --color-faint: #5b6d86;
+  --color-body: #ecfff5e0;
+  --color-muted: #ecfff5e0;
+  --color-faint: #ecfff5e0;
 
   /* Meaning-coded accents */
   --color-ember: #ff6b4a;   /* heat, forcing, thresholds */

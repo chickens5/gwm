@@ -1,0 +1,1652 @@
+[
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1750",
+  "emissions_total": "9305937"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1751",
+  "emissions_total": "9407229"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1752",
+  "emissions_total": "9505168"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1753",
+  "emissions_total": "9610490"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1754",
+  "emissions_total": "9733580"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1755",
+  "emissions_total": "9793468"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1756",
+  "emissions_total": "9909914"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1757",
+  "emissions_total": "10093936"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1758",
+  "emissions_total": "10216358"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1759",
+  "emissions_total": "10338854"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1760",
+  "emissions_total": "10514331"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1761",
+  "emissions_total": "10747885"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1762",
+  "emissions_total": "10952198"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1763",
+  "emissions_total": "11191592"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1764",
+  "emissions_total": "11396982"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1765",
+  "emissions_total": "11643486"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1766",
+  "emissions_total": "11876080"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1767",
+  "emissions_total": "12152509"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1768",
+  "emissions_total": "12466936"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1769",
+  "emissions_total": "12780074"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1770",
+  "emissions_total": "13097216"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1771",
+  "emissions_total": "13369488"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1772",
+  "emissions_total": "13623507"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1773",
+  "emissions_total": "13808138"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1774",
+  "emissions_total": "14012415"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1775",
+  "emissions_total": "14338920"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1776",
+  "emissions_total": "14654124"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1777",
+  "emissions_total": "14959537"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1778",
+  "emissions_total": "15243483"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1779",
+  "emissions_total": "15535235"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1780",
+  "emissions_total": "15878726"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1781",
+  "emissions_total": "16234383"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1782",
+  "emissions_total": "16580954"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1783",
+  "emissions_total": "17062752"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1784",
+  "emissions_total": "17471092"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1785",
+  "emissions_total": "17965128"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1786",
+  "emissions_total": "18447496"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1787",
+  "emissions_total": "18859130"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1788",
+  "emissions_total": "19286228"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1789",
+  "emissions_total": "19863424"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1790",
+  "emissions_total": "20398094"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1791",
+  "emissions_total": "20931750"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1792",
+  "emissions_total": "21929214"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1793",
+  "emissions_total": "22297260"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1794",
+  "emissions_total": "22519656"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1795",
+  "emissions_total": "22315246"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1796",
+  "emissions_total": "22121374"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1797",
+  "emissions_total": "22090078"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1798",
+  "emissions_total": "23105928"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1799",
+  "emissions_total": "27485206"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1800",
+  "emissions_total": "32798352"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1801",
+  "emissions_total": "31986050"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1802",
+  "emissions_total": "40310476"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1803",
+  "emissions_total": "29538506"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1804",
+  "emissions_total": "31769176"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1805",
+  "emissions_total": "31251818"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1806",
+  "emissions_total": "32704620"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1807",
+  "emissions_total": "36200652"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1808",
+  "emissions_total": "35497788"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1809",
+  "emissions_total": "36333812"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1810",
+  "emissions_total": "39492310"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1811",
+  "emissions_total": "40176680"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1812",
+  "emissions_total": "40814520"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1813",
+  "emissions_total": "41206140"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1814",
+  "emissions_total": "42226650"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1815",
+  "emissions_total": "43587264"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1816",
+  "emissions_total": "45496580"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1817",
+  "emissions_total": "49275920"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1818",
+  "emissions_total": "51392010"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1819",
+  "emissions_total": "50930170"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1820",
+  "emissions_total": "50733076"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1821",
+  "emissions_total": "52059348"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1822",
+  "emissions_total": "54021710"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1823",
+  "emissions_total": "56357760"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1824",
+  "emissions_total": "57583636"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1825",
+  "emissions_total": "60730864"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1826",
+  "emissions_total": "61382130"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1827",
+  "emissions_total": "65738572"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1828",
+  "emissions_total": "66681790"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1829",
+  "emissions_total": "66307412"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1830",
+  "emissions_total": "88988500"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1831",
+  "emissions_total": "83250904"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1832",
+  "emissions_total": "82091750"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1833",
+  "emissions_total": "83248940"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1834",
+  "emissions_total": "88763100"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1835",
+  "emissions_total": "97399600"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1836",
+  "emissions_total": "106894500"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1837",
+  "emissions_total": "106199420"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1838",
+  "emissions_total": "105845260"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1839",
+  "emissions_total": "109653030"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1840",
+  "emissions_total": "118808510"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1841",
+  "emissions_total": "122165550"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1842",
+  "emissions_total": "129388790"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1843",
+  "emissions_total": "132369384"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1844",
+  "emissions_total": "141966450"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1845",
+  "emissions_total": "155073400"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1846",
+  "emissions_total": "157701780"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1847",
+  "emissions_total": "170796750"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1848",
+  "emissions_total": "173643470"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1849",
+  "emissions_total": "185048030"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1850",
+  "emissions_total": "196847600"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1851",
+  "emissions_total": "198778540"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1852",
+  "emissions_total": "207595090"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1853",
+  "emissions_total": "217236980"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1854",
+  "emissions_total": "255038560"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1855",
+  "emissions_total": "260259860"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1856",
+  "emissions_total": "278245630"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1857",
+  "emissions_total": "281181060"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1858",
+  "emissions_total": "285548380"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1859",
+  "emissions_total": "302572160"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1860",
+  "emissions_total": "332298430"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1861",
+  "emissions_total": "349190140"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1862",
+  "emissions_total": "355991070"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1863",
+  "emissions_total": "379534880"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1864",
+  "emissions_total": "409525400"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1865",
+  "emissions_total": "434851330"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1866",
+  "emissions_total": "449067000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1867",
+  "emissions_total": "480813900"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1868",
+  "emissions_total": "494493540"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1869",
+  "emissions_total": "524731070"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1870",
+  "emissions_total": "536123300"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1871",
+  "emissions_total": "569776640"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1872",
+  "emissions_total": "630961500"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1873",
+  "emissions_total": "670467200"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1874",
+  "emissions_total": "628662200"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1875",
+  "emissions_total": "681048000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1876",
+  "emissions_total": "690582500"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1877",
+  "emissions_total": "704032830"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1878",
+  "emissions_total": "709649540"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1879",
+  "emissions_total": "759794370"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1880",
+  "emissions_total": "858227800"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1881",
+  "emissions_total": "888172540"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1882",
+  "emissions_total": "938158100"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1883",
+  "emissions_total": "997862460"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1884",
+  "emissions_total": "1009762000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1885",
+  "emissions_total": "1017489150"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1886",
+  "emissions_total": "1032987300"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1887",
+  "emissions_total": "1084283300"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1888",
+  "emissions_total": "1201341700"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1889",
+  "emissions_total": "1202097500"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1890",
+  "emissions_total": "1307255600"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1891",
+  "emissions_total": "1369598300"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1892",
+  "emissions_total": "1380536200"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1893",
+  "emissions_total": "1363179500"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1894",
+  "emissions_total": "1412227300"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1895",
+  "emissions_total": "1495963900"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1896",
+  "emissions_total": "1545450800"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1897",
+  "emissions_total": "1618405200"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1898",
+  "emissions_total": "1706966500"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1899",
+  "emissions_total": "1864424200"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1900",
+  "emissions_total": "1962883800"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1901",
+  "emissions_total": "2025628200"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1902",
+  "emissions_total": "2076956000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1903",
+  "emissions_total": "2264592000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1904",
+  "emissions_total": "2290254800"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1905",
+  "emissions_total": "2440570600"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1906",
+  "emissions_total": "2548978200"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1907",
+  "emissions_total": "2904949200"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1908",
+  "emissions_total": "2790395100"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1909",
+  "emissions_total": "2907111700"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1910",
+  "emissions_total": "3050273000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1911",
+  "emissions_total": "3097207300"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1912",
+  "emissions_total": "3253928700"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1913",
+  "emissions_total": "3524845800"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1914",
+  "emissions_total": "3197750000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1915",
+  "emissions_total": "3148030700"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1916",
+  "emissions_total": "3400232200"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1917",
+  "emissions_total": "3556498400"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1918",
+  "emissions_total": "3506084600"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1919",
+  "emissions_total": "3041113000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1920",
+  "emissions_total": "3546758000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1921",
+  "emissions_total": "3114994000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1922",
+  "emissions_total": "3264716800"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1923",
+  "emissions_total": "3702996000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1924",
+  "emissions_total": "3716142600"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1925",
+  "emissions_total": "3740632800"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1926",
+  "emissions_total": "3677406700"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1927",
+  "emissions_total": "4012946700"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1928",
+  "emissions_total": "3996310500"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1929",
+  "emissions_total": "4288210000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1930",
+  "emissions_total": "3958094600"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1931",
+  "emissions_total": "3539318800"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1932",
+  "emissions_total": "3192590000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1933",
+  "emissions_total": "3362682000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1934",
+  "emissions_total": "3656185600"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1935",
+  "emissions_total": "3835740700"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1936",
+  "emissions_total": "4207928800"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1937",
+  "emissions_total": "4496713000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1938",
+  "emissions_total": "4229616600"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1939",
+  "emissions_total": "4470132000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1940",
+  "emissions_total": "4884662000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1941",
+  "emissions_total": "4999090000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1942",
+  "emissions_total": "4982523400"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1943",
+  "emissions_total": "5075272700"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1944",
+  "emissions_total": "5162486000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1945",
+  "emissions_total": "4289311500"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1946",
+  "emissions_total": "4608545300"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1947",
+  "emissions_total": "5165203500"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1948",
+  "emissions_total": "5447883000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1949",
+  "emissions_total": "5204032500"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1950",
+  "emissions_total": "5930406000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1951",
+  "emissions_total": "6381651000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1952",
+  "emissions_total": "6467699700"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1953",
+  "emissions_total": "6651039000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1954",
+  "emissions_total": "6789734000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1955",
+  "emissions_total": "7444102700"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1956",
+  "emissions_total": "7926275000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1957",
+  "emissions_total": "8185976300"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1958",
+  "emissions_total": "8417516500"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1959",
+  "emissions_total": "8855113000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1960",
+  "emissions_total": "9386952000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1961",
+  "emissions_total": "9414990000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1962",
+  "emissions_total": "9747241000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1963",
+  "emissions_total": "10266778000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1964",
+  "emissions_total": "10824470000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1965",
+  "emissions_total": "11310602000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1966",
+  "emissions_total": "11862625000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1967",
+  "emissions_total": "12237371000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1968",
+  "emissions_total": "12905273000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1969",
+  "emissions_total": "13761798000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1970",
+  "emissions_total": "14899139000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1971",
+  "emissions_total": "15503863000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1972",
+  "emissions_total": "16224580000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1973",
+  "emissions_total": "17077285000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1974",
+  "emissions_total": "16997913000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1975",
+  "emissions_total": "16988476000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1976",
+  "emissions_total": "17862492000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1977",
+  "emissions_total": "18358039000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1978",
+  "emissions_total": "19024742000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1979",
+  "emissions_total": "19508590000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1980",
+  "emissions_total": "19409793000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1981",
+  "emissions_total": "18879756000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1982",
+  "emissions_total": "18729742000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1983",
+  "emissions_total": "18901776000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1984",
+  "emissions_total": "19457250000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1985",
+  "emissions_total": "20144863000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1986",
+  "emissions_total": "20438045000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1987",
+  "emissions_total": "21106190000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1988",
+  "emissions_total": "21918757000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1989",
+  "emissions_total": "22200214000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1990",
+  "emissions_total": "22732145000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1991",
+  "emissions_total": "23205591000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1992",
+  "emissions_total": "22520424000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1993",
+  "emissions_total": "22749872000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1994",
+  "emissions_total": "22974597000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1995",
+  "emissions_total": "23516640000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1996",
+  "emissions_total": "24233476000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1997",
+  "emissions_total": "24380322000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1998",
+  "emissions_total": "24295713000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "1999",
+  "emissions_total": "24837771000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2000",
+  "emissions_total": "25511483000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2001",
+  "emissions_total": "25692994000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2002",
+  "emissions_total": "26265332000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2003",
+  "emissions_total": "27652692000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2004",
+  "emissions_total": "28610023000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2005",
+  "emissions_total": "29598951000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2006",
+  "emissions_total": "30594152000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2007",
+  "emissions_total": "31499256000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2008",
+  "emissions_total": "32049660000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2009",
+  "emissions_total": "31513014000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2010",
+  "emissions_total": "33317670000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2011",
+  "emissions_total": "34479990000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2012",
+  "emissions_total": "34954736000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2013",
+  "emissions_total": "35275820000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2014",
+  "emissions_total": "35465695000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2015",
+  "emissions_total": "35403526000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2016",
+  "emissions_total": "35392830000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2017",
+  "emissions_total": "35974610000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2018",
+  "emissions_total": "36734005000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2019",
+  "emissions_total": "37086570000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2020",
+  "emissions_total": "35158230000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2021",
+  "emissions_total": "36866863000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2022",
+  "emissions_total": "37527773000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2023",
+  "emissions_total": "38094040000"
+ },
+ {
+  "entity": "World",
+  "code": "OWID_WRL",
+  "year": "2024",
+  "emissions_total": "38598580000"
+ }
+]
