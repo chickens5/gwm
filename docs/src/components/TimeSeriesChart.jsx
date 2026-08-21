@@ -31,7 +31,7 @@ function ChartTooltip({ active, payload, label, unit }) {
 
   if (!active || !payload?.length) return null;
   return (
-    <div className="rounded-md border border-hairline bg-panel-2 px-3 py-2 font-mono text-xs shadow-lg">
+    <div className="rounded-md border border-hairline bg-panel-2 px-3 py-2 mono text-xs shadow-lg">
       <div className="mb-1 text-faint">{label}</div>
       {payload.map((e) => (
         <div key={e.dataKey} style={{ color: e.stroke }}>
@@ -55,11 +55,11 @@ export default function TimeSeriesChart({
   if (!data?.length) return null;
   const ticks = yearTicks(data);
   return (
-    <figure className="rounded-lg border border-hairline bg-panel p-4 sm:p-5">
+    <figure className="chart-frame">
       <figcaption className="mb-3">
 
         <h3 className="font-medium text-body">{title}</h3>
-        {caption && <p className="mt-1 text-sm leading-relaxed text-muted">{caption}</p>}
+        {caption && <p className="mt-1 text-sm prose-body">{caption}</p>}
       </figcaption>
 
       <div className="h-[260px] sm:h-[var(--h)]" style={{ "--h": `${height}px` }}>
@@ -75,7 +75,7 @@ export default function TimeSeriesChart({
               tickFormatter={(v) => v.toLocaleString()} />
 
             <Tooltip content={<ChartTooltip unit={unit} />} />
-            {legend && <Legend wrapperStyle={{ fontSize: 12, fontFamily: "var(--font-mono)" }} />}
+            {legend && <Legend />}
             {refLines.map((r) => (
               <ReferenceLine key={r.label} y={r.y}
                 stroke={r.color || "#ff6b4a"} strokeDasharray="6 4" strokeOpacity={0.8}
@@ -92,7 +92,7 @@ export default function TimeSeriesChart({
           </LineChart>
         </ResponsiveContainer>
       </div>
-      {unit && <div className="mt-2 font-mono text-[11px] text-faint">{unit}</div>}
+      {unit && <div className="mt-2 mono text-[11px] text-faint">{unit}</div>}
     </figure>
   );
 }

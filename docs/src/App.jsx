@@ -18,7 +18,7 @@ export default function App() {
   const { loading, series } = useData();
 
   if (loading) {
-    return <div className="grid min-h-screen place-items-center font-mono text-sm text-muted">loading vital signs…</div>;
+    return <div className="grid min-h-screen place-items-center mono text-sm text-muted">loading vital signs…</div>;
   }
 
   const { co2, gistemp, seaice, sealevel } = series;
@@ -39,8 +39,8 @@ export default function App() {
           Global Warming Monitor
         </h1>
         {/* the threshold horizon, echoed from the temperature chart */}
-        <div className="mt-5 h-px w-full bg-gradient-to-r from-ember via-ember/40 to-transparent" />
-        <p className="mt-5 max-w-2xl leading-relaxed text-muted">
+        <div className="mt-5 divider-ember" />
+        <p className="mt-5 max-w-2xl prose-body">
           One story in three acts: the <span className="text-amber">drivers</span> of warming are
           accelerating, the Earth system's <span className="text-steel">response</span> is tracking
           them, and several <span className="text-ice">threshold</span> systems are moving toward
@@ -50,7 +50,7 @@ export default function App() {
         <nav className="sticky top-0 z-10 -mx-4 mt-8 flex gap-2 overflow-x-auto bg-ink/90 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6" aria-label="Acts">
           {NAV.map((n) => (
             <a key={n.id} href={`#${n.id}`}
-              className="whitespace-nowrap rounded-md border border-hairline bg-panel px-3 py-1.5 font-mono text-xs text-muted transition-colors hover:border-faint hover:text-body">
+              className="nav-pill">
               {n.label}
             </a>
           ))}
@@ -78,14 +78,14 @@ export default function App() {
         <Thresholds series={series} />
       </main>
 
-      <footer className="border-t border-hairline py-10 text-sm leading-relaxed text-faint">
-        <p>
+      <footer className="border-t border-hairline py-10 text-sm prose-body text-faint">
+        <p><strong>
           Data: NOAA GML (CO₂) · Global Carbon Project via Our World in Data (emissions) ·
           Ember via OWID &amp; EIA (electricity) · NASA GISTEMP (temperature) · NOAA NCEI
           (ocean temperature, ocean heat content) · NOAA STAR (sea level) · NSIDC (sea ice) ·
           IMBIE / NASA via OWID (ice sheets).
-        </p>
-        <p className="mt-2 font-mono text-xs">
+        </strong></p>
+        <p className="mt-2 mono text-xs">
           updates monthly ~ anomaly baselines differ by dataset and are stated per chart
         </p>
       </footer>

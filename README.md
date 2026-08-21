@@ -1,22 +1,19 @@
 # Welcome
 
-__I built this to monitor Climate Change variables and to eventually implement js based ML for predicting Climate tipping points.__
+**I built this to monitor Climate Change variables and for ML analysis on Climate tipping points in combination with emissions and Climate data.**
 
-The Climate Crisis depicted through three features:
+### The Climate Crisis is depicted through three features:
  **drivers** show warming (CO₂, emissions, electricity demand) of the Earth system's 
- in which the **response** can be seen with (surface and ocean temperature, ocean heat content, sea level).
- Lastly, the **threshold** represents the vital Climate systems in danger of tipping (Arctic September sea ice, the Greenland and Antarctic ice sheets).
-
-
-
+ in which the **response** can be seen with (surface and ocean temperature, ocean heat content, sea level). Lastly, the **threshold** represents the vital Climate systems in danger of tipping (Arctic September sea ice, the Greenland and Antarctic ice sheets).
 
 ## Data sources
 
-| id          | Series                                   | Provider                       | Cadence |       URL         |
-|-------------|------------------------------------------|--------------------------------|---------|--------------------
-| co2         | Atmospheric CO₂, Mauna Loa               | NOAA GML                       | monthly | https://gml.noaa.gov/ccgg/trends/data.html
-| emissions   | Global fossil CO₂ emissions              | Global Carbon Project via OWID | annual  | https://ourworldindata.org/grapher/annual-co2-emissions-per-country.csv?v=1&csvType=full&useColumnShortNames=true 
-
+| id     |      Series                                   | Provider                       |Frequency+URL
+---------------------------------------------------------------------------------------------------------
+| co2    | Atmospheric CO₂, Mauna Loa  | NOAA GML | monthly ~ https://gml.noaa.gov/ccgg/trends/data.html
+---------------------------------------------------------------------------------------------------------
+| emissions | Global fossil CO₂ emissions | Global Carbon Project via OWID | annual ~ https://ourworldindata.org/grapher/annual-co2-emissions-per-country.csv?v=1&csvType=full&useColumnShortNames=true 
+---------------------------------------------------------------------------------------------------------
 | electricity | Electricity demand, US + World           | Ember via OWID                 | annual  | 
 | electricity_eia | US net generation (optional)         | EIA API v2 (`EIA_API_KEY`)     | monthly |
 | gistemp     | Global surface temperature anomaly       | NASA GISTEMP v4                | monthly |

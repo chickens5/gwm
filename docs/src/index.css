@@ -27,13 +27,50 @@ html {
   html { scroll-behavior: auto; }
 }
 
+/* NOTE: this --color-panel override is deliberate — panels render dark-green
+   (#04301b8f), not the @theme navy (#0b1420). Preserve current appearance. */
 body {
   background-color: var(--color-ink);
   color: var(--color-body);
-  
-  --color-panel: #04301b8f;
+
+  --color-panel: #3a5c4c8f;
   font-family: var(--font-display);
   -webkit-font-smoothing: antialiased;
+}
+
+/* ---------------------------------------------------------------------------
+   Component classes — consolidated from repeated JSX class strings.
+--------------------------------------------------------------------------- */
+@layer components {
+  /* shared panel shell (stat cards, chart frames) */
+  .card {
+    @apply rounded-lg border border-hairline bg-panel;
+  }
+
+  /* monospace numerals/labels */
+  .mono {
+    @apply font-mono;
+  }
+
+  /* body prose — thesis, intro, captions, footer */
+  .prose-body {
+    @apply leading-relaxed text-muted;
+  }
+
+  /* header nav link pill */
+  .nav-pill {
+    @apply whitespace-nowrap rounded-md border border-hairline bg-panel px-3 py-1.5 font-mono text-xs text-muted transition-colors hover:border-faint hover:text-body;
+  }
+
+  /* gradient hairline under the header */
+  .divider-ember {
+    @apply h-px w-full bg-gradient-to-r from-ember via-ember/40 to-transparent;
+  }
+
+  /* chart figure shell */
+  .chart-frame {
+    @apply rounded-lg border border-hairline bg-panel p-4 sm:p-5;
+  }
 }
 
 /* mono eyebrow labels */
@@ -45,11 +82,17 @@ body {
   color: var(--color-faint);
 }
 
-.recharts-cartesian-axis-tick text {
+/* Recharts typography — moved out of inline wrapperStyle/tick props */
+.recharts-cartesian-axis-tick text,
+.recharts-legend-wrapper {
   font-family: var(--font-mono);
+}
+.recharts-legend-wrapper {
+  font-size: 12px;
 }
 
 :focus-visible {
   outline: 2px solid var(--color-ice);
   outline-offset: 2px;
 }
+
