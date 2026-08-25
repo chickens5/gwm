@@ -8,24 +8,22 @@
 
 ## Data sources
 
-| id     |      Series                                   | Provider                       |Frequency+URL
----------------------------------------------------------------------------------------------------------
-| co2    | Atmospheric CO₂, Mauna Loa  | NOAA GML | monthly ~ https://gml.noaa.gov/ccgg/trends/data.html
----------------------------------------------------------------------------------------------------------
-| emissions | Global fossil CO₂ emissions | Global Carbon Project via OWID | annual ~ https://ourworldindata.org/grapher/annual-co2-emissions-per-country.csv?v=1&csvType=full&useColumnShortNames=true 
----------------------------------------------------------------------------------------------------------
-| electricity | Electricity demand, US + World           | Ember via OWID                 | annual  | 
-| electricity_eia | US net generation (optional)         | EIA API v2 (`EIA_API_KEY`)     | monthly |
-| gistemp     | Global surface temperature anomaly       | NASA GISTEMP v4                | monthly |
-| sst         | Global ocean surface temp anomaly        | NOAA NCEI Climate at a Glance  | monthly |
-| ohc         | Ocean heat content 0–700 m               | NOAA NCEI                      | annual  |
-| sealevel    | Global mean sea level (altimetry)        | NOAA STAR (OWID fallback)      | ~monthly|
-| seaice      | Arctic September sea ice extent          | NSIDC Sea Ice Index            | annual  |
-| icesheets   | Ice sheet cumulative mass change         | IMBIE / NASA via OWID          | annual+ |
+## | id  |      Series       | Provider    |    Frequency+URL    |
+#### ---------------------------------------------------------------------------------------------------------
+| co2_gml  | Atmospheric CO₂, Mauna Loa  | [NOAA GML](https://gml.noaa.gov/ccgg/trends/data.html) | yearly & country indices XLSX 
 
-**Baselines are per-dataset and stated on each chart** — the app deliberately does
-not re-baseline published anomalies. The 1.5 °C / 2.0 °C horizons on the temperature
-chart are drawn relative to GISTEMP's own 1880–1900 mean as a stated approximation
-of the pre-industrial (1850–1900) reference.
+| emissions_owid | Global fossil CO₂ emissions | Global Carbon Project via OWID | monthly & yearly ~ https://ourworldindata.org/grapher/annual-co2-emissions-per-country.csv?v=1&csvType=full&useColumnShortNames=true 
 
-*Don't forget this in vite config: base: '/'*
+| eia_monyear | US net generation (optional) | EIA | monyear ~ https://www.eia.gov/electricity/data.php |
+
+| gistemp | Global surface temperature anomaly  | NASA GISTEMP v4 | monyear ~ https://data.giss.nasa.gov/gistemp/data_v4.html |
+
+| seaice_sh_extent  | Arctic September sea ice extent | [NSIDC Sea Ice Index](https://nsidc.org/sea-ice-today/sea-ice-tools) | annual   |
+
+| *not used* seaice_roc | Ice sheet cumulative mass change | IMBIE / NASA via OWID | annual ~ https://noaadata.apps.nsidc.org/NOAA/G02135/seaice_analysis/  |
+
+
+# References 
+NOAA GML ~ Mauna Loa Trends in CO2, CH4, N2O, SF6 | Dr. Xin Lan, NOAA/GML (gml.noaa.gov/ccgg/trends/) and Dr. Ralph Keeling, Scripps Institution of Oceanography (scrippsco2.ucsd.edu/).
+
+

@@ -11,11 +11,11 @@ const BASE = import.meta.env.BASE_URL;
 
 // Series IDs that have a processed JSON file. Others render a placeholder.
 const JSON_SOURCES = {
-  co2:              "json_files/co2.json",
-  gistemp:          "json_files/gistemp.json",
-  emissions:        "json_files/emissions.json",
-  seaice:           "json_files/seaice.json",
-  emissions_by_ind: "json_files/emissions_by_ind.json",
+  co2:              "data/processed/co2.json",
+  gistemp:          "data/processed/gistemp.json",
+  emissions:        "data/processed/emissions.json",
+  seaice:           "data/processed/seaice.json",
+  emissions_by_ind: "data/processed/emissions_by_ind.json",
 };
 
 // All series the app knows about (missing ones show MissingSource placeholder).
